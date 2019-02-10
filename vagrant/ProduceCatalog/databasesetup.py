@@ -40,3 +40,5 @@ class ProduceItem(Base):
 	
 	description = Column(String(250))
 	
+	price = Column(String(8))
+	
