@@ -38,3 +38,5 @@ class ProduceItem(Base):
 	id = Column(
 	Integer, primary_key = True)
 	
+	description = Column(String(250))
+	
