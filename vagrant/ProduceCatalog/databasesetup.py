@@ -43,7 +43,7 @@ class ProduceItem(Base):
 	type = Column(
 	String(80))
 	
-	produce_id = Columnn(
+	produce_id = Column(
 	String(80), ForeignKey('produce.id'))
 	
 	produce = relationship(Produce)
