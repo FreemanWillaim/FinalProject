@@ -45,4 +45,8 @@ class ProduceItem(Base):
 	type = Column(
 	String(80))
 	
+	produce_id = Columnn(
+	String(80), ForeignKey('produce.id'))
+	
+	
 	
