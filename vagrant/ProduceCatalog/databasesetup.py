@@ -21,6 +21,9 @@ class Produce(Base):
 
 	__tablename__ = 'produce'
 	
+	name = Column(
+	String(80), nullable = False)
+	
 	
 class ProduceItem(Base):
 
