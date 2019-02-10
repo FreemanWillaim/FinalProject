@@ -48,5 +48,5 @@ class ProduceItem(Base):
 	produce_id = Columnn(
 	String(80), ForeignKey('produce.id'))
 	
-	
+	produce 
 	
