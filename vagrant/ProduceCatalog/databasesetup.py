@@ -19,3 +19,8 @@ Base.metadata.create_all(engine)
 
 class Produce(Base):
 
+	__tablename__ = 'produce'
+
+class ProduceItem(Base):
+
+	__tablename__ = 'produce_item'
