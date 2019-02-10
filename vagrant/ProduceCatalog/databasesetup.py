@@ -42,3 +42,7 @@ class ProduceItem(Base):
 	
 	price = Column(String(8))
 	
+	type = Column(
+	String(80))
+	
+	
