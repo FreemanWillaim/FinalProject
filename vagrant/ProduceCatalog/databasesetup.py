@@ -35,3 +35,6 @@ class ProduceItem(Base):
 	name = Column(
 	String(80), nullable = False)
 	
+	id = Column(
+	Integer, primary_key = True)
+	
